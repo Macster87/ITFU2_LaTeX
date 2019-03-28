@@ -1,0 +1,57 @@
+\documentclass[a4paper,twoside,10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{parskip}
+\usepackage[ngerman]{babel}
+\usepackage{a4 wide}
+\author{Matthias Meyer}
+\title{Meine LaTeX-Übung}
+\date{\today}
+
+\begin{document}
+\textbf{Unnummerierte Listen} Listen haben Punkte, Striche oder sonstige Zeichen als Anstriche
+ \begin{itemize}
+    \item Punkt
+    \item Noch ein Punkt
+    \begin{itemize}
+        \item Unterpunkt
+        \item Weiterer Unterpunkt
+        \begin{itemize}
+            \item Unterunterpunkt
+        \end{itemize}        
+    \end{itemize}
+    \item Ein weiterer Punkt
+ \end{itemize}
+
+ \textbf{Nummerierte Listen} Listen haben Punkte, Striche oder sonstige Zeichen als Anstriche
+
+ \begin{enumerate}
+     \item Erster Punkt
+     \begin{enumerate}
+         \item Unterpunkt
+         \item Unterpunkt
+         \begin{enumerate}
+            \item Unterunterpunkt
+            \begin{enumerate}
+                \item Unterunterunterpunkt
+                \item Unterunterunterpunkt
+            \end{enumerate}
+            \item Unterunterpunkt
+         \end{enumerate}
+     \end{enumerate}
+     \item Zweiter Punkt
+     \item Dritter Punkt
+     \begin{enumerate}
+         \item Noch ein Unterpunkt
+         \item Noch ein Unterpunkt
+     \end{enumerate}
+ \end{enumerate}
+
+ \textbf{Beschreibende Listen} haben einen individuellen Text am Anfang, wie z.B. diese Liste
+ 
+ \begin{description}
+     \item[Begriff] Erklärung
+     \item[Noch ein Begriff] Weitere Erklärung 
+ \end{description}
+\end{document}

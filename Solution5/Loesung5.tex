@@ -1,0 +1,47 @@
+\documentclass[a4paper,twoside,10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{parskip}
+\usepackage[ngerman]{babel}
+\usepackage{a4 wide}
+\usepackage{ragged2e}
+\author{Matthias Meyer}
+\title{Meine LaTeX-Übung}
+\date{\today}
+
+\begin{document}
+\textbf{Linksbündig} - nicht Umgebung
+
+\raggedright Normalerweise werden Absätze von LaTeX beidbündig gesetzt. Durch Stuauchung oder Dehnung der Wortzwichenräume stellt sich somit links und rechts ein glatter Rand ein. Mit den Kommandos raggedleft und raggedright läst sich der der Text rechts- bzw. linksbündig formatieren.
+
+\justifying
+\textbf{Rechtsbündig} - nicht Umgebung
+
+\raggedleft Normalerweise werden Absätze von LaTeX beidbündig gesetzt. Durch Stuauchung oder Dehnung der Wortzwichenräume stellt sich somit links und rechts ein glatter Rand ein. Mit den Kommandos raggedleft und raggedright läst sich der der Text rechts- bzw. linksbündig formatieren.
+
+\justifying
+\textbf{Zentriert} - nicht Umgebung
+
+\centering Normalerweise werden Absätze von LaTeX beidbündig gesetzt. Durch Stuauchung oder Dehnung der Wortzwichenräume stellt sich somit links und rechts ein glatter Rand ein. Mit den Kommandos raggedleft und raggedright läst sich der der Text rechts- bzw. linksbündig formatieren.
+
+\justifying
+\textbf{Linksbündig} - mit Umgebung
+
+\begin{flushleft}
+    Normalerweise werden Absätze von LaTeX beidbündig gesetzt. Durch Stuauchung oder Dehnung der Wortzwichenräume stellt sich somit links und rechts ein glatter Rand ein. Mit den Kommandos raggedleft und raggedright läst sich der der Text rechts- bzw. linksbündig formatieren.
+\end{flushleft}
+
+\textbf{Rechtsbündig} - mit Umgebung
+
+\begin{flushright}
+    Normalerweise werden Absätze von LaTeX beidbündig gesetzt. Durch Stuauchung oder Dehnung der Wortzwichenräume stellt sich somit links und rechts ein glatter Rand ein. Mit den Kommandos raggedleft und raggedright läst sich der der Text rechts- bzw. linksbündig formatieren.
+\end{flushright}
+
+\textbf{Zentriert} - mit Umgebung
+
+\begin{center}
+    Normalerweise werden Absätze von LaTeX beidbündig gesetzt. Durch Stuauchung oder Dehnung der Wortzwichenräume stellt sich somit links und rechts ein glatter Rand ein. Mit den Kommandos raggedleft und raggedright läst sich der der Text rechts- bzw. linksbündig formatieren.
+\end{center}
+
+\end{document}
